@@ -1,5 +1,5 @@
 # Vice-City-Heist
-An incomplete Python script that is in the form of a GTA VI Heist in Vice City. Students are supposed to fix each function and learn Git doing so.
+An incomplete Python script that is in the form of a GTA VI Heist in Vice City. Students are supposed to fix each function and learn Git doing so. There is also a hidden key in the repo, go along with us to find out more 👀.
 
 ---
  
@@ -110,7 +110,7 @@ git commit -m "Fix mission 2: wanted stars"
 ## Part 4: Oops! Undoing things
  
 **Mess up on purpose.** In `heist.py`, delete the return statement from Mission 5 and save. Run `python heist.py`: error or broken. Don't panic.
- 
+
 ```
 git status
 git diff
@@ -129,8 +129,8 @@ git commit -m "Oops, too early"
 git reset HEAD~1
 git status
 ```
- 
 The commit is gone, but your change is back in the working directory.
+
 ---
 
 ## Part 5: Branching and merging
@@ -256,7 +256,9 @@ git diff (NEW ID) (OLD ID)
  
 Press `q` to exit.
  
-**Exercise:** Find the commit where Mission 3 got fixed, using `git log --oneline` and `git diff`. What was the line before and after?
+**Exercise 1:** Find the commit where Mission 3 got fixed, using `git log --oneline` and `git diff`. What was the line before and after?
+
+**Exercise 2:** There is a hidden key in the commit history of the repo. Can you use `git log --oneline` and `git checkout ID` to find it?
  
 ---
 
